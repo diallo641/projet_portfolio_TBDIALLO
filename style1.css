@@ -1,0 +1,39 @@
+.entete{
+  background: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  height: 200px;
+}
+
+.entete img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background: white;
+  padding: 10px;
+  list-style: none;
+  gap: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav a:hover {
+  color: blueviolet;
+  font-weight: bold;
+  text-decoration: underline blueviolet;
+}
